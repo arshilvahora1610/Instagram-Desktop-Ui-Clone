@@ -1,0 +1,13 @@
+.timeline{
+    display: flex;
+    flex-direction: row;
+}
+.right{
+    flex: 0.7;
+}
+.left{
+    flex: 0.3;
+}
+.timeline__stories{
+    display: flex;
+}

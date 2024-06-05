@@ -1,0 +1,114 @@
+.sidenav{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 0;
+   
+}
+.sidenav__logo{
+    width: 120px;
+    margin: 25px;
+}
+.home{
+    width: 23px;
+    margin: 10px;
+    margin-left: -45px;
+}
+/* .sidenav-buttons{
+    display: flex;
+} */
+.side-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.home1{
+    width: 35px;
+    margin: 8px;
+    margin-left: -60px;
+}
+.home2{
+    width: 30px;
+    margin: 10px;
+    margin-left: -15px;
+}
+.home3{
+    width: 25px;
+    margin: 10px;
+    margin-left: -10px;
+}
+.home4{
+    width: 25px;
+    margin: 8px;
+    margin-left: -50px;
+}
+.home5{
+    width: 30px;
+    margin: 8px;
+    margin-left: -65px;
+}
+.home6{
+    width: 45px;
+    margin: 5px;
+    margin-left: -65px;
+}
+
+.side-button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+.side-button:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+/* .side-button img:hover{
+    height: 10px;
+} */
+.sidenav span{
+    font-size: 17px;
+}
+.side-button2:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.side-button {
+    position: relative;
+    /* display: inline-block; */
+  }
+
+  .badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 50%;
+  }
+  .side-button2 {
+    margin-left: 10px;
+    position: relative;
+    /* display: inline-block; */
+  }
+
+  .badge2 {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 50%;
+  }

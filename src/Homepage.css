@@ -1,0 +1,16 @@
+.homepage{
+    display: flex;
+    flex-direction: row;
+}
+.homepage--nav{
+    flex: 0.2;
+    /* border: 2px solid red; */
+}
+.homepage--timeline{
+    flex: 0.5;
+    border-left: 1px solid rgb(219, 195, 195);
+}
+.homepage--suggestions{
+    flex: 0.3;
+    
+}

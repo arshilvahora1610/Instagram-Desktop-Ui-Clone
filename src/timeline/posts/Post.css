@@ -1,0 +1,29 @@
+.displayStories{
+    margin-top: 49px;
+    margin-left: 20px;
+    border: 2px solid red;
+    border-radius: 35px;
+    /* background-color: black; */
+}
+.profileImg{
+    width: 50px;
+    cursor: pointer;
+}
+/* .story{
+    display: flex;
+    flex-direction: column;
+} */
+
+.usernameWrapper {
+    width: 100%; 
+    box-sizing: border-box; 
+    /* margin: 10px; */
+  }
+  .post{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: 7px;
+    
+    
+  }
